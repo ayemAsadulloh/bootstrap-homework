@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*,*::before*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial" sans-serif;
+    background-color: aqua;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    padding: 40px;
+}
+
+.input {
+    width: 350px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    padding: 14px;
+}
+
+.title {
+    font-size: 20px;
+}
+
